@@ -28,9 +28,9 @@ The first thing we will need to do is pull down the latest Docker image of [Sona
     2. To start the container:\
     `docker-compose up -d`
     3. To stop the container:\
+    `docker-compose stop`
+    4. To remove the container:\
     `docker-compose down`
-    4. To stop the container:\
-    `docker-compose rm`
 3. If you would rather create the new container by hand and not use Docker Compose:
     1. Create the instance of the container:\
       `docker create --name sonarqube -p 9000:9000 -p 9092:9092 sonarqube`
