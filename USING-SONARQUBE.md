@@ -1,5 +1,5 @@
 
-# SonarQube With Docker For JavaScript or TypeScript Projects
+# SonarQube With Docker For JavaScript Or TypeScript Projects
 [SonarQube](https://www.sonarqube.org/) always seemed a little daunting to me, and I never really gave that much thought to it. How wrong was I! While [Static Code Analysis](https://www.owasp.org/index.php/Static_Code_Analysis) might not find invalid business logic, it does help find security issues and it can sniff out code smells that your team has grown accustomed to. It might seem hairy to set it up for local developers, but it's actually quite easy with the help of Docker and npm!
 
 Things you will need installed on your computer in order set this up:
